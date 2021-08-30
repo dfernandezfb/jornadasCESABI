@@ -1,6 +1,11 @@
 :root{
   --main-green:#4df755;
   --main-blue:#001c89;
+  --main-darkblue:#18273C;
+  --main-dark:#343a40;
+  --main-light: #ffeef2ff;
+  --main-darkgreen: #156064ff;
+  scroll-behavior: smooth;
 }
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -19,26 +24,48 @@ body {
 .blue{
   color:#001c89;
 }
-.bg-green{
-  background-color: #4df755;
+.pbg-green{
+  background-color: var(--main-green);
 }
-.bg-blue{
-  background-color: #001c89;
+.pbg-blue{
+  background-color: var(--main-blue);
+}
+.pbg-darkblue{
+  background-color: var(--main-darkblue);
+}
+.pbg-dark{
+  background-color: var(--main-dark);
+}
+.pbg-darkgreen{
+  background-color: var(--main-darkgreen);
+}
+.pbg-light{
+  background-color: var(--main-light);
+}
+
+.clean-link{
+  text-decoration: none;
+  color: black;
 }
 
 /*components*/
 .green-button{
   background-color: var(--main-green);
+  color: black;
   font-weight: 600;
   padding: 8px 0px;
   border: none;
   width: 200px;
+  text-align:center;
+  text-decoration:none;
 }
 .blue-button{
   background-color: var(--main-blue);
   padding: 8px 0px;
   border: none;
   width: 200px;
+  text-align:center;
+  text-decoration:none;
 }
 .black-button{
   background-color: #000000;
@@ -47,4 +74,12 @@ body {
   padding: 8px 0px;
   border: none;
   width: 200px;
+  text-align:center;
+  text-decoration:none;
 }
+/*
+--screamin-green: #4df755ff;
+--resolution-blue: #001c89ff;
+--lavender-blush: #ffeef2ff;
+--skobeloff: #156064ff;
+--oxford-blue: #18273cff;*/

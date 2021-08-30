@@ -1,0 +1,42 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  margin: .5rem;
+}
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--main-light);
+}
+.social-icon:hover {
+  color: var(--main-green);
+}
+.footer-cesabi{
+  background-image: url(./../../assets/images/cesabi-original.png);
+  height: 130px;
+  width: 200px;
+  background-size: cover;
+}
+.footer-sabi{
+  background-image: url(./../../assets/images/sabi.jpg);
+  height: 120px;
+  width: 120px;
+  padding-top: 20px;
+  background-size: cover;
+}
+@media(min-width: 992px) {
+  .social-icons {
+      flex-direction: column;
+      align-items: center;
+  }
+  .social-icon {
+      margin: 1rem;
+  }
+  .center-lg {
+      text-align: center;
+  }
+}

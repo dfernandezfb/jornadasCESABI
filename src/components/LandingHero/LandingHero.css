@@ -1,19 +1,31 @@
-.hero-background{
-    background-image: url('./../../assets/images/portada.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-    background-position: 50%;
+.hero-background {
+  background-image: url("./../../assets/images/portada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  background-position: 50%;
 }
-.hero-box{
-    background-color:rgba(0,28, 137, .7);
-    background-size: cover;
-    position: relative;
-    height: 100vh;
+.hero-box {
+  background-color: rgba(0, 28, 137, 0.7);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
 }
-.hero-title{
-    font-size: 50px;
-    font-weight: 600;
-    color: white;
+.hero-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+.slowShow {
+  animation: slowShow 1s ease-out;
+}
+
+@keyframes slowShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

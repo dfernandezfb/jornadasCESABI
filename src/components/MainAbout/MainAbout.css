@@ -1,0 +1,24 @@
+.about-event-title{
+  height: 200px;
+  font-size: 15px;
+  background-color: var(--main-blue);
+}
+.about-event-image{
+  background-image: url('./../../assets/images/meeting.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
+.about-us-title{
+  height: 200px;
+  font-size: 15px;
+  background-color: var(--main-green);
+}
+.about-us-image{
+  background-image: url('./../../assets/images/nosotros.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
