@@ -11,7 +11,7 @@ const PricesAndSteps = () => {
       <h3 className="mb-4">Aranceles</h3>
       <div className="d-flex justify-content-around mb-5">
         <div>
-          <h5 className="text-center mb-3">🔥 Inscripción temprana (17/08 al 21/09) 🔥</h5>
+          <h5 className="text-center mb-3"> <span role="img">🔥</span>  Inscripción temprana (17/08 al 21/09) <span role="img">🔥</span></h5>
           <table className="text-center border">
             <thead>
               <tr>
