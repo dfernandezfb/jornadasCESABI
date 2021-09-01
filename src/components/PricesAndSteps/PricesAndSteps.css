@@ -1,0 +1,19 @@
+.prices-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width:992px){
+  .prices-container{
+    display: block;
+  }
+  .price-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .nav-pills{
+    margin-bottom: 20px !important;
+  }
+}

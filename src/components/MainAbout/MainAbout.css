@@ -22,3 +22,14 @@
   background-position: center;
   height: 70vh;
 }
+.logos-bajos{
+  width: 250px;
+  height: 100px;
+}
+.logos-altos{
+  height: 120px;
+}
+.ponente-link{
+  text-decoration: none;
+  color: black;
+}

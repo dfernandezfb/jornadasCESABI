@@ -3,14 +3,15 @@ import Tab from 'react-bootstrap/Tab'
 import Nav from 'react-bootstrap/Nav'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import './PricesAndSteps.css'
 
 const PricesAndSteps = () => {
   
   return (
     <div className="container my-5">
       <h3 className="mb-4">Aranceles</h3>
-      <div className="d-flex justify-content-around mb-5">
-        <div>
+      <div className="prices-container mb-5">
+        <div className="price-table">
           <h5 className="text-center mb-3"> <span role="img">🔥</span>  Inscripción temprana (17/08 al 21/09) <span role="img">🔥</span></h5>
           <table className="text-center border">
             <thead>
@@ -34,7 +35,7 @@ const PricesAndSteps = () => {
             </tbody>
           </table>
         </div>
-        <div>
+        <div className="price-table">
           <h5 className="text-center mb-3">Inscripción tardía (22/09 al 04/10)</h5>
           <table className="text-center border">
             <thead>

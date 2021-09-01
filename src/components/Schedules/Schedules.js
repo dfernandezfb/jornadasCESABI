@@ -4,6 +4,7 @@ const Schedules = () => {
   return (
     <div className='container mt-5 mb-5'>
       <h2 className="mb-4">Cronograma del evento<span className='fs-6'> <a href='/' className='clean-link'>(Haciendo click aquí, podés descargarlo)</a></span></h2>
+      <div className="table-responsive">
       <table className='col-12 text-center table-bordered'>
         <thead className="pbg-green">
           <tr className="">
@@ -20,7 +21,7 @@ const Schedules = () => {
           <tr>
             <th scope='row' className='p-3'>09:00</th>
             <td className='p-3'>Presentación oficial</td>
-            <td className='p-3'> <HashLink to='/ponentes#friday1' smooth> Charla 15</HashLink></td>
+            <td className='p-3'> <HashLink to='/ponentes#friday1' class="ponente-link"smooth> Charla 15</HashLink></td>
             <td className='p-3'>Mamografos</td>
             <td className='p-3'>Radiación</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
@@ -151,6 +152,7 @@ const Schedules = () => {
           </tr>
         </tbody>
       </table>
+      </div>
       
     </div>
   )

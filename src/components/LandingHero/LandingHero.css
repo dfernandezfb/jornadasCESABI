@@ -1,14 +1,20 @@
 .hero-background {
-  background-image: url("./../../assets/images/portada.png");
-  background-repeat: no-repeat;
+  background-color: rgba(0, 28, 137, 1);
   background-size: cover;
   position: relative;
   height: 100vh;
-  background-position: 50%;
 }
-.hero-box {
-  background-color: rgba(0, 28, 137, 0.7);
+.hero-box{
+  background-image: url("./../../assets/images/cesabi-solo.png");
+  background-size: 20vw;
+  background-repeat: repeat;
+  height: 100vh; 
+}
+.hero-box-2 {
+  background-color: rgba(0, 0, 0, .5);
   background-size: cover;
+  position: relative;
+  height: 100vh;
   position: relative;
   height: 100vh;
 }
@@ -20,6 +26,39 @@
 .slowShow {
   animation: slowShow 1s ease-out;
 }
+.green-button{
+  background-color: var(--main-green);
+  color: black;
+  font-weight: 600;
+  padding: 8px 0px;
+  border: none;
+  width: 200px;
+  text-align:center;
+  text-decoration:none;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+.darkblue-button{
+  background-color: var(--main-darkblue);
+  color: white;
+  font-weight: 400;
+  padding: 8px 0px;
+  border: none;
+  width: 200px;
+  text-align:center;
+  text-decoration:none;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.green-button:hover{
+  background-color: #28802c;
+  color: white;
+}
+.darkblue-button:hover{
+  background-color: #1c58ac;
+  color: black;
+  font-weight: bold;
+}
 
 @keyframes slowShow {
   0% {
@@ -27,5 +66,23 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width:576px){
+  .hero-title{
+    font-size: 30px;
+  }
+  .darkblue-button,.green-button{
+    width: 175px;
+  }
+}
+@media (max-width:375px){
+  .hero-title{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .darkblue-button,.green-button{
+    width: 160px;
   }
 }

@@ -1,4 +1,7 @@
 import React from 'react'
+import unaj1 from './../../assets/images/unaj1.jpg'
+import unaj2 from './../../assets/images/unaj2.png'
+import facetunt from './../../assets/images/facet-unt.png'
 import './MainAbout.css'
 
 const MainAbout = () => {
@@ -31,7 +34,13 @@ const MainAbout = () => {
         <div className='px-0 about-us-image'/>
       </div>
       <h2 className="text-center my-5">Auspician este evento</h2>
+      <div className="d-flex"></div>
       <h2 className="text-center my-5">Apoyan este evento</h2>
+      <div className="d-flex mb-5 justify-content-around flex-wrap">
+        <img src={unaj1} alt="logo-unaj" className="logos-bajos m-4" />
+        <img src={unaj2} alt="logo-unaj" className="logos-bajos m-4" />
+        <img src={facetunt} alt="logo-facet-unt" className="logos-altos m-4" />
+      </div>
     </div>
   )
 }

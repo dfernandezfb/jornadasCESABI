@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo from './../../assets/images/cesabi-blanco.png'
 //CSS
 import './LandingHero.css'
@@ -20,16 +20,17 @@ const LandingHero = () => {
     //     </div>
     // </div>
     <div className='hero-background'>
-      <div className='hero-box d-flex justify-content-center align-items-center px-5 flex-column'>
-        <div className='d-flex flex-row align-items-center'>
-          <img src={logo} alt='logo-cesabi' className='w-25 slowShow' />
-          <div className='hero-title slowShow'>
-            I Jornadas de Bioingeniería e Ingeniería Biomédica del Capítulo de Estudiantes SABI
+      <div className='hero-box'>
+        <div className='hero-box-2 d-flex justify-content-center align-items-center px-5 flex-column'>
+          <div className='d-flex flex-row align-items-center'>
+            <div className='hero-title slowShow text-center'>
+              I Jornadas de Bioingeniería e Ingeniería Biomédica del Capítulo de Estudiantes SABI
+            </div>
           </div>
-        </div>
-        <div className='d-flex slowShow'>
-          <Link className='green-button' to=''> Inscríbete </Link>
-          <Link className='black-button' to='/home'> Más información </Link>
+          <div className='d-flex slowShow'>
+            <Link className='green-button' to='/inscripcion'> Inscríbete </Link>
+            <Link className='darkblue-button' to='/home'> Más información </Link>
+          </div>
         </div>
       </div>
     </div>

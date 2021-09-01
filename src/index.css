@@ -16,6 +16,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--main-darkblue);
+}
+body::-webkit-scrollbar-thumb{
+  background: var(--main-green);
+  border-radius:12px;
+  border-right:2px;
+}
 
 /* colors */ 
 .green{
@@ -49,34 +58,7 @@ body {
 }
 
 /*components*/
-.green-button{
-  background-color: var(--main-green);
-  color: black;
-  font-weight: 600;
-  padding: 8px 0px;
-  border: none;
-  width: 200px;
-  text-align:center;
-  text-decoration:none;
-}
-.blue-button{
-  background-color: var(--main-blue);
-  padding: 8px 0px;
-  border: none;
-  width: 200px;
-  text-align:center;
-  text-decoration:none;
-}
-.black-button{
-  background-color: #000000;
-  color: white;
-  font-weight: 400;
-  padding: 8px 0px;
-  border: none;
-  width: 200px;
-  text-align:center;
-  text-decoration:none;
-}
+
 /*
 --screamin-green: #4df755ff;
 --resolution-blue: #001c89ff;
