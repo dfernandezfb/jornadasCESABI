@@ -1,6 +1,6 @@
 import React from 'react'
 //Dependencies
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 //Components
 import LandingPage from './pages/LandingPage'
 import Home from './pages/Home'

@@ -21,7 +21,7 @@ const Schedules = () => {
           <tr>
             <th scope='row' className='p-3'>09:00</th>
             <td className='p-3'>Presentación oficial</td>
-            <td className='p-3'> <HashLink to='/ponentes#friday1' class="ponente-link"smooth> Charla 15</HashLink></td>
+            <td className='p-3'> <HashLink to='/ponentes#friday1' class="ponente-link" smooth> Charla 15</HashLink></td>
             <td className='p-3'>Mamografos</td>
             <td className='p-3'>Radiación</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
