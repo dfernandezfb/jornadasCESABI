@@ -3,7 +3,7 @@ import {HashLink} from 'react-router-hash-link'
 const Schedules = () => {
   return (
     <div className='container mt-5 mb-5'>
-      <h2 className="mb-4">Cronograma del evento<span className='fs-6'> <a href='/' className='clean-link'>(Haciendo click aquí, podés descargarlo)</a></span></h2>
+      <h2 className="mb-4">Cronograma del evento<span className='fs-6'> <a href='https://drive.google.com/file/d/1SQ-0BpaJvcDkJ48HKgudn459_h6BfH4O/view?usp=sharing' target="_blank" rel="noreferrer" className='clean-link'>(Haciendo click aquí, podés descargarlo)</a></span></h2>
       <div className="table-responsive">
       <table className='col-12 text-center table-bordered'>
         <thead className="pbg-green">
