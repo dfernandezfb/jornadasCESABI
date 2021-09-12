@@ -8,7 +8,7 @@ import './MainCarousel.css'
 const MainCarousel = () => {
 
   return (
-    <Carousel className='mb-3'>
+    <Carousel className='mb-3' nextLabel='' prevLabel=''>
       <Carousel.Item>
         <img
           className="d-block w-100"

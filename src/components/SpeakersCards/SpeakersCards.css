@@ -6,12 +6,13 @@
 .speaker-description{
   height: 250px;
   overflow-y: auto;
+  white-space: pre-line;
 }
 .speaker-description::-webkit-scrollbar {
-  width: 10px;
-  background-color: var(--main-darkblue);
+  width: 7px;
+  background-color: var(--main-light);
 }
 .speaker-description::-webkit-scrollbar-thumb{
-  background: var(--main-green);
-  border-radius:10px;
+  background: #DFDFDF;
+  border-radius:7px;
 }

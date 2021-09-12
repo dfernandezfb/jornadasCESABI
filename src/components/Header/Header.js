@@ -30,11 +30,10 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='pbg-green' />
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
           <div className="nav-menu">
-            {location.includes('/home')?<Link to='/home' className='mx-3 nav-links nav-link-active'>Home</Link>:<Link to='/home' className='mx-3 nav-links'>Home</Link>}
+            {location=='/'?<Link to='/' className='mx-3 nav-links nav-link-active'>Home</Link>:<Link to='/' className='mx-3 nav-links'>Home</Link>}
             {location.includes('/inscripcion')?<Link to='/inscripcion' className='mx-3 nav-links nav-link-active'>Inscríbete</Link>:<Link to='/inscripcion' className='mx-3 nav-links'>Inscríbete</Link>}
-            {location.includes('/ponentes')?<Link to='/ponentes' className='mx-3 nav-links nav-link-active'>Ponentes</Link>:<Link to='/ponentes' className='mx-3 nav-links'>Ponentes</Link>}
-            {location.includes('/cronograma')?<Link to='/cronograma' className='mx-3 nav-links nav-link-active'>Cronograma</Link>:<Link to='/cronograma' className='mx-3 nav-links'>Cronograma</Link>}
-            {location.includes('cronograma')?<Link to='/cronograma' className='mx-3 nav-links nav-link-active'>Cronograma</Link>:<Link to='/cronograma' className='mx-3 nav-links'>Cronograma</Link>}
+            {location.includes('/evento')?<Link to='/evento' className='mx-3 nav-links nav-link-active'>Sobre el evento</Link>:<Link to='/evento' className='mx-3 nav-links'>Sobre el evento</Link>}
+            {location.includes('/capitulo')?<Link to='/capitulo' className='mx-3 nav-links nav-link-active'>¿Quienes somos?</Link>:<Link to='/capitulo' className='mx-3 nav-links'>¿Quienes somos?</Link>}
             <a href='https://sabi.org.ar/socios/' target='_blank' rel="noopener noreferrer" className='mx-3 nav-links'>Asociate a SABI</a>
           </div>
         </Navbar.Collapse>

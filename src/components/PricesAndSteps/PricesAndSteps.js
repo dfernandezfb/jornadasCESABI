@@ -17,7 +17,7 @@ const PricesAndSteps = () => {
             <thead>
               <tr>
                 <th className="p-3"></th>
-                <th className="p-3">Socios SABI / IEEE</th>
+                <th className="p-3">Socios SABI / IEEE / SAMFYR</th>
                 <th className="p-3">General</th>
               </tr>
             </thead>
@@ -41,7 +41,7 @@ const PricesAndSteps = () => {
             <thead>
             <tr>
               <th className="p-3"></th>
-              <th className="p-3">Socios SABI / IEEE</th>
+              <th className="p-3">Socios SABI / IEEE / SAMFYR</th>
               <th className="p-3">General</th>
             </tr>
             </thead>
