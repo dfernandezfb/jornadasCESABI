@@ -99,6 +99,17 @@ const CesabiCards = () => {
             </div>
           </div>
         </div>
+        <div className="col-12 col-sm-6 col-lg-4 mb-5">
+          <div className="bouza-card">
+            <div className="card-black">
+              <div className="text-center">
+                <h3>Andrea Bouza</h3>
+                <hr />
+                <p>Representante de la Universidad Nacional de Córdoba</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

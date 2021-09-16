@@ -143,3 +143,20 @@
   transform: scale(1.1);
   
 }
+.bouza-card{
+  background-image: url('../../assets/images/bouza.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.bouza-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.bouza-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
+}
