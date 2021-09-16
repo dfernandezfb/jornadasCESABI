@@ -17,7 +17,7 @@ const SpeakersCards = () => {
   const speakersTuesday=[
   ];
   const speakersWednesday=[
-    {id:'wednesday-1', photo:hintz,name:'Guillermo Hintz', description:'Senior Quality Assurance Automation y Scrum Master. Estudió Ingenierpia en Sistemas en la Universidad Tecnológica Nacional, Facultad Regional Córdoba. Trabaja aplicando Scrum diariamente con clientes de todo el mundo hace más de 6 años y estuvo involucrado en equipos de 10 a 150 personas.'}
+    {id:'wednesday-1', photo:hintz,name:'Guillermo Hintz', description:'Senior Quality Assurance Automation y Scrum Master. Estudió Ingeniería en Sistemas en la Universidad Tecnológica Nacional, Facultad Regional Córdoba. Trabaja aplicando Scrum diariamente con clientes de todo el mundo hace más de 6 años y estuvo involucrado en equipos de 10 a 150 personas.'}
   ];
   const speakersThursday=[
     {id:'thursday-1', photo:detke,name:'Ramiro Detke', description:'Ingeniero en Computación. Se encuentra haciendo el Doctorado en Ciencias de la Ingeniería de la UNC con una beca del CONICET, investigando redes de contacto entre dispositivos de comunicaciones móviles. Es parte del equipo del Laboratorio de Comunicaciones Digitales de la UNC, donde realizo tareas de investigación y desarrollo.'},

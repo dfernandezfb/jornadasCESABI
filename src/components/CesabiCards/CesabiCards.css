@@ -109,3 +109,37 @@
   transform: scale(1.1);
   
 }
+.giorgio-card{
+  background-image: url('../../assets/images/giorgio.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.giorgio-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.giorgio-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
+}
+.trujillo-card{
+  background-image: url('../../assets/images/trujillo.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.trujillo-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.trujillo-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
+}

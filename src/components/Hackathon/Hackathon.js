@@ -7,7 +7,7 @@ const Hackathon = () => {
   return (
     <div className="container my-5">
       <h2 className="blue">¿Qué es el Hackathon CESABI?</h2>
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         El “HACKATHON CESABI” es una competencia establecida con el propósito de crear grupos multidisciplinarios que se verán ante la situación de resolver una problemática real que será brindada por la organización y  elegida por cada equipo. <br />
         La edición 2021 se llevará a cabo durante los días <b>15, 16 y 17 de octubre del 2021</b> dando inicio formal a la competencia el día 15 por la tarde y cerrando el 17. <br />
         El Hackathon CESABI nace en el marco de las “I Jornadas de Bioingeniería del Capítulo de Estudiantes de la SABI - I Jornadas CESABI” para dar cierre a 3 días de puro ingeniería que estarán compuestos por charlas y workshops que serán las bases para que los equipos puedan dar soluciones relacionadas a lo visto durante la semana, adquiriendo de esta forma nuevas competencias. <br />
@@ -16,7 +16,7 @@ const Hackathon = () => {
         Una vez elegida la propuesta a desarrollar que será seleccionada por consenso del equipo, se deberán ir haciendo entregables para ver la evolución y se finalizará con un video pitch de 3 minutos donde deberán “vender” la solución, exponiendo de esta manera la capacidad de síntesis de los equipos. Cabe aclarar que todos los equipos tendrán tutores que realizarán un seguimiento asesorándolos de forma objetiva y apoyándolos a la hora de realizar la edición del video pitch.
       </p>
       <h2 className="blue">¿Quienes pueden participar?</h2>
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         La convocatoria a participar está principalmente dirigida a estudiantes universitarios de ingeniería y carreras afines, pudiendo asimismo participar graduados, docentes, profesores o investigadores de cada universidad. Debido a que la conformación de los equipos estará dada por la gobernanza, existirá una equidad de competencias y conocimientos. Es por ello, que incentivamos a que estudiantes de todos los años puedan inscribirse ya que a nivel sistémico, no se verán en desigualdad de condiciones.
       </p>
       <h2 className="mb-3 blue">Premios</h2>

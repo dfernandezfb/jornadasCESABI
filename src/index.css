@@ -57,6 +57,9 @@ body::-webkit-scrollbar-thumb{
   color: black;
 }
 
+.text-justify{
+  text-align: justify;
+}
 /*components*/
 
 /*
