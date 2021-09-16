@@ -9,7 +9,7 @@ const PricesAndSteps = () => {
   
   return (
     <div className="container my-5">
-      <h3 className="mb-4">Aranceles</h3>
+      <h3 className="mb-4 blue">Aranceles</h3>
       <div className="prices-container mb-5">
         <div className="price-table">
           <h5 className="text-center mb-3"> <span role="img">🔥</span>  Inscripción temprana (17/08 al 21/09) <span role="img">🔥</span></h5>
@@ -60,7 +60,7 @@ const PricesAndSteps = () => {
           </table>
         </div>
       </div>
-      <h3 className="mb-4"> Pasos a seguir</h3>
+      <h3 className="mb-4 blue"> Pasos a seguir</h3>
       <div>
         <Tab.Container defaultActiveKey="first">
           <Row>
@@ -97,7 +97,7 @@ const PricesAndSteps = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   Completá el siguiente formulario: <br /><br />
-                  <a href="https://forms.gle/9AkMgfsTWjUGBpTr7" target="_blank" rel="noopener noreferrer"> Inscripción a las I Jornadas de Bioingeniería del Capítulo de Estudiantes SABI</a>
+                    <a href="https://forms.gle/9AkMgfsTWjUGBpTr7" className="register-insc shadow-lg" target="_blank" rel="noopener noreferrer"> Inscripción a las I Jornadas de Bioingeniería del Capítulo de Estudiantes SABI</a>
                 </Tab.Pane>
                 <Tab.Pane eventKey="fourth">
                   Una vez completados y verificados los pasos anteriores, te estaremos envíando un mail de confirmación para participar del evento. <b>¡GRACIAS!</b>

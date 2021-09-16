@@ -15,7 +15,6 @@ import './SpeakersCards.css'
 
 const SpeakersCards = () => {
   const speakersTuesday=[
-    {id:'tuesday-1', photo:logo,name:'example', description:'description example'}
   ];
   const speakersWednesday=[
     {id:'wednesday-1', photo:hintz,name:'Guillermo Hintz', description:'Senior Quality Assurance Automation y Scrum Master. Estudió Ingenierpia en Sistemas en la Universidad Tecnológica Nacional, Facultad Regional Córdoba. Trabaja aplicando Scrum diariamente con clientes de todo el mundo hace más de 6 años y estuvo involucrado en equipos de 10 a 150 personas.'}
@@ -33,9 +32,9 @@ const SpeakersCards = () => {
   ];
   return (
     <div className="container my-5">
-      <h2 className="mb-2">Ponentes</h2>
+      <h2 className="mb-2 blue">Ponentes</h2>
       <p>Aquí conocerás a los ponentes a medida que nos vayamos acercando al inicio del evento</p>
-      <h5 className='blue mb-3'>Martes 12 de Octubre</h5>
+      <h4 className='mb-3'>Martes 12 de Octubre</h4>
       <Row xs={1} md={3} className="g-4 mb-5">
         {speakersTuesday.map((speaker,id) => (
           <Col key={id} id={speaker.id}>
@@ -51,7 +50,7 @@ const SpeakersCards = () => {
           </Col>
         ))}
       </Row>
-      <h5 className='blue mb-3'>Miércoles 13 de Octubre</h5>
+      <h4 className='mb-3'>Miércoles 13 de Octubre</h4>
       <Row xs={1} md={3} className="g-4 mb-5">
         {speakersWednesday.map((speaker,id) => (
           <Col key={id} id={speaker.id}>
@@ -67,7 +66,7 @@ const SpeakersCards = () => {
           </Col>
         ))}
       </Row>
-      <h5 className='blue mb-3'>Jueves 14 de Octubre</h5>
+      <h4 className='mb-3'>Jueves 14 de Octubre</h4>
       <Row xs={1} md={3} className="g-4 mb-5">
         {speakersThursday.map((speaker,id) => (
           <Col key={id} id={speaker.id}>
@@ -83,7 +82,7 @@ const SpeakersCards = () => {
           </Col>
         ))}
       </Row>
-      <h5 className='blue mb-3'>Viernes 15 de Octubre</h5>
+      <h4 className='mb-3'>Viernes 15 de Octubre</h4>
       <Row xs={1} md={3} className="g-4 mb-5">
         {speakersFriday.map((speaker,index) => (
           <Col key={index} id={speaker.id}>

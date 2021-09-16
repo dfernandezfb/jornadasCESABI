@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from './../../assets/images/cesabi-blanco.png'
+// import logo from './../../assets/images/cesabi-blanco.png'
 //CSS
 import './LandingHero.css'
 

@@ -7,6 +7,8 @@ import facetunt from './../../assets/images/facet-unt.png'
 import fiunsj from './../../assets/images/fi-unsj.png'
 import uf from './../../assets/images/uf.png'
 import um from './../../assets/images/um.png'
+import fiuner from './../../assets/images/fi-uner.jpg'
+import coral from './../../assets/images/coral.png'
 import './MainAbout.css'
 import useMediaQuery from '../../hooks/useMediaQuery'
 
@@ -64,9 +66,11 @@ const MainAbout = () => {
         <img src={unaj1} alt="logo-unaj" className="logos-bajos m-4" />
         <img src={unaj2} alt="logo-unaj" className="logos-bajos m-4" />
         <img src={facetunt} alt="logo-facet-unt" className="logos-altos m-4" />
-        <img src={fiunsj} alt="logo-fi-unsj" className="logos-altos m-4" />
+        <img src={fiunsj} alt="logo-fi-unsj" className="logos-altos fiunsj m-4" />
         <img src={uf} alt="logo-uf" className="logos-altos m-4" />
         <img src={um} alt="logo-um" className="logos-altos m-4" />
+        <img src={fiuner} alt="logo-fi-uner" className="logos-altos m-4" />
+        <img src={coral} alt="logo-coral" className="logos-altos m-4" />
       </div>
     </main >
   )

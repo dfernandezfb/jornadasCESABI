@@ -1,0 +1,77 @@
+p {
+  white-space: pre-line;
+}
+.awards {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.award {
+  height: 30%;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+}
+.winner-name{
+  width: 70%;
+  height: 100%;
+  border-radius: 2rem;
+  box-shadow: -2px 5px 15px 5px #000000;
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.base-1,.base-2,.base-3{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: var(--main-green);
+}
+.base-3 {
+  box-shadow: -2px 5px 15px 5px #000000;
+  height: 50%;
+  background-color: var(--main-darkblue);
+}
+.base-1 {
+  height: 70%;
+  background-color:  var(--main-darkblue);
+  box-shadow: -2px 5px 15px 5px #000000;
+}
+.base-2 {
+  height: 60%;
+  background-color: var(--main-darkblue);
+  box-shadow: -2px 5px 15px 5px #000000;
+}
+.integrants-1, .integrants-2, .integrants-3{
+  display: none;
+  font-size: 20px;
+}
+.base-1:hover .integrants-1{
+  display: block;
+}
+.base-1:hover .number-1{
+  display: none;
+}
+.base-2:hover .integrants-2{
+  display: block;
+}
+.base-2:hover .number-2{
+  display: none;
+}
+.base-3:hover .integrants-3{
+  display: block;
+}
+.base-3:hover .number-3{
+  display: none;
+}
+
+@media screen and (max-width:592px){
+  .base-1,.base-2,.base-3{
+    height: 60%;
+  }
+}

@@ -3,7 +3,7 @@ import {HashLink} from 'react-router-hash-link'
 const Schedules = () => {
   return (
     <div className='container mt-5 mb-5'>
-      <h2 className="mb-4">Cronograma del evento<span className='fs-6'> <a href='https://drive.google.com/file/d/1SQ-0BpaJvcDkJ48HKgudn459_h6BfH4O/view?usp=sharing' target="_blank" rel="noreferrer" className='clean-link'>(Haciendo click aquí, podés descargarlo)</a></span></h2>
+      <h2 className="mb-4 blue">Cronograma del evento<span className='fs-6'> <a href='https://drive.google.com/file/d/1SQ-0BpaJvcDkJ48HKgudn459_h6BfH4O/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='clean-link'>(Haciendo click aquí, podés descargarlo)</a></span></h2>
       <div className="table-responsive">
       <table className='col-12 text-center table-bordered'>
         <thead className="pbg-green">
@@ -21,7 +21,7 @@ const Schedules = () => {
           <tr>
             <th scope='row' className='p-3'>09:00</th>
             <td className='p-3'>Presentación oficial</td>
-            <td className='p-3'> <HashLink to='/ponentes#friday1' className="ponente-link" smooth> Charla 15</HashLink></td>
+            <td className='p-3'></td>
             <td className='p-3'>Mamografos móviles - <HashLink to='/evento#thursday-2' className="ponente-link" smooth> Ing. Melani Larrain e Ing. Virginia Tesio</HashLink></td>
             <td className='p-3'>Radiación - <HashLink to='/evento#friday-1' className="ponente-link" smooth> Ing. Florencia Zalazar</HashLink> e <HashLink to='/evento#friday-2' className="ponente-link" smooth> Ing. Daniela Zanchi</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
@@ -47,7 +47,7 @@ const Schedules = () => {
           </tr>
           <tr>
             <th scope='row' className='p-3'>11:15</th>
-            <td className='p-3'>Neurociencias</td>
+            <td className='p-3'></td>
             <td className='p-3'>EBERS</td>
             <td className='p-3'>Ingeniería de tejidos</td>
             <td className='p-3'>Ingeniería de rehabilitación</td>
@@ -59,7 +59,7 @@ const Schedules = () => {
             <td className='p-3'>Estudiantes en acción</td>
             <td className='p-3'>Estudiantes en acción</td>
             <td className='p-3'>Estudiantes en acción</td>
-            <td className='p-3'>Estudiantes en acción</td>
+            <td className='p-3'>Neurociencias</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
           </tr>

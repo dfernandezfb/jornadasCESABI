@@ -28,6 +28,23 @@
   padding-top: 20px;
   background-size: cover;
 }
+.footer-coral{
+  background-image: url(./../../assets/images/coral.png);
+  height: 120px;
+  width: 120px;
+  padding-top: 20px;
+  background-size: cover;
+}
+@media screen and (max-width:592px){
+  .footer-cesabi{
+    width: 150px;
+    height: 100px;
+  }
+  .footer-sabi{
+    width: 100px;
+    height: 100px;
+  }
+}
 @media(min-width: 992px) {
   .social-icons {
       flex-direction: column;
