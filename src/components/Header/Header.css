@@ -16,7 +16,12 @@
   .nav-menu{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     text-align: center;
+    height: 90vh;
+  }
+  .nav-links{
+    font-size: 20px;
   }
 }
 

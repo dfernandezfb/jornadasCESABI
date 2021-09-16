@@ -1,5 +1,111 @@
 .elizondo-card{
-  background-image: url('../../assets/images/ceci.jpeg');
+  background-image: url('../../assets/images/elizondo.jpeg');
   background-size: cover;
-  height: 350px;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.card-black{
+  height: 400px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  display: none;
+  transition: 300ms;
+}
+.elizondo-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.elizondo-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
+}
+.zucarelli-card{
+  background-image: url('../../assets/images/zucarelli.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.zucarelli-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.zucarelli-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
+}
+.guinart-card{
+  background-image: url('../../assets/images/guinart.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.guinart-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.guinart-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
+}
+.navarro-card{
+  background-image: url('../../assets/images/navarro.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.navarro-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.navarro-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
+}
+.tartabini-card{
+  background-image: url('../../assets/images/tartabini.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.tartabini-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.tartabini-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
+}
+.fernandez-card{
+  background-image: url('../../assets/images/fernandez.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  transition: 300ms;
+  box-shadow: 1px 5px 15px 4px rgba(0,0,0,0.56);
+}
+.fernandez-card:hover .card-black{
+  transition: 300ms;
+  display: flex;
+}
+.fernandez-card:hover{
+  transition: 300ms;
+  transform: scale(1.1);
+  
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import nosotros from './../../assets/images/nosotros.png'
 import meeting from './../../assets/images/meeting.png'
 import unaj1 from './../../assets/images/unaj1.jpg'
@@ -35,7 +36,7 @@ const MainAbout = () => {
             <div className='row mb-2'>
               <div className='col-md-8 d-flex justify-content-center align-items-center'>
                 <p style={{ textAlign: 'justify' }}>
-                  Somos un grupo de estudiantes de ingeniería biomédica/bioingeniería ubicados en distintos puntos del país, pero unidos con el mismo objetivo: crear un ámbito formal dentro de la sociedad para generar y proponer actividades de interés. Creemos que tener redes de contactos con profesionales de las diferentes áreas de aplicación de la bioingeniería puede ser de muchísima ayuda para la formación académica, así como también, en la inserción laboral. Buscamos darles herramientas a los estudiantes desde que ingresan hasta que deciden en qué especializarse. <a href="#"> Conocé a los integrantes del capítulo aquí</a>
+                  Somos un grupo de estudiantes de ingeniería biomédica/bioingeniería ubicados en distintos puntos del país, pero unidos con el mismo objetivo: crear un ámbito formal dentro de la sociedad para generar y proponer actividades de interés. Creemos que tener redes de contactos con profesionales de las diferentes áreas de aplicación de la bioingeniería puede ser de muchísima ayuda para la formación académica, así como también, en la inserción laboral. Buscamos darles herramientas a los estudiantes desde que ingresan hasta que deciden en qué especializarse. <Link to='/capitulo'> Conocé a los integrantes del capítulo aquí</Link>
                 </p>
               </div>
               <div className='col-md-4 about-us-title d-flex justify-content-center align-items-center py-3 mb-2'>
@@ -49,7 +50,7 @@ const MainAbout = () => {
               </div>
               <div className='col-md-8 d-flex justify-content-center align-items-center'>
                 <p style={{ textAlign: 'justify' }}>
-                  Somos un grupo de estudiantes de ingeniería biomédica/bioingeniería ubicados en distintos puntos del país, pero unidos con el mismo objetivo: crear un ámbito formal dentro de la sociedad para generar y proponer actividades de interés. Creemos que tener redes de contactos con profesionales de las diferentes áreas de aplicación de la bioingeniería puede ser de muchísima ayuda para la formación académica, así como también, en la inserción laboral. Buscamos darles herramientas a los estudiantes desde que ingresan hasta que deciden en qué especializarse. <a href="#"> Conocé a los integrantes del capítulo aquí</a>
+                  Somos un grupo de estudiantes de ingeniería biomédica/bioingeniería ubicados en distintos puntos del país, pero unidos con el mismo objetivo: crear un ámbito formal dentro de la sociedad para generar y proponer actividades de interés. Creemos que tener redes de contactos con profesionales de las diferentes áreas de aplicación de la bioingeniería puede ser de muchísima ayuda para la formación académica, así como también, en la inserción laboral. Buscamos darles herramientas a los estudiantes desde que ingresan hasta que deciden en qué especializarse. <Link to='/capitulo'> Conocé a los integrantes del capítulo aquí</Link>
                 </p>
               </div>
             </div>
@@ -61,7 +62,7 @@ const MainAbout = () => {
       </div>
       {/* <h2 className="text-center my-5">Auspician este evento</h2>
       <div className="d-flex"></div> */}
-      <h2 className="text-center my-5">Apoyan este evento</h2>
+      <h2 className="text-center my-5">Este evento cuenta con el aval institucional de</h2>
       <div className="d-flex mb-5 justify-content-around flex-wrap">
         <img src={unaj1} alt="logo-unaj" className="logos-bajos m-4" />
         <img src={unaj2} alt="logo-unaj" className="logos-bajos m-4" />
