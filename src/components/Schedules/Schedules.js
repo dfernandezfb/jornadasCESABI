@@ -30,7 +30,7 @@ const Schedules = () => {
           <tr>
             <th scope='row' className='p-3'>09:45</th>
             <td className='p-3'>Transformación digital</td>
-            <td className='p-3'>Rehabilitación con BCI</td>
+            <td className='p-3'>Rehabilitación con BCI - <HashLink to='/cronograma#wednesday-2' className="ponente-link">Mg. Bioing. L. Carolina Carrere </HashLink></td>
             <td className='p-3'>Ingeniería Clínica</td>
             <td className='p-3'>Nanomedicina</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
@@ -49,7 +49,7 @@ const Schedules = () => {
             <th scope='row' className='p-3'>11:15</th>
             <td className='p-3'></td>
             <td className='p-3'>EBERS</td>
-            <td className='p-3'>Ingeniería de tejidos</td>
+            <td className='p-3'>Ingeniería de tejidos - <HashLink to='/cronograma#thursday-4' className="ponente-link" smooth>Ing. Eduardo Nieva </HashLink></td>
             <td className='p-3'>Ingeniería de rehabilitación</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>K</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>K</td>
@@ -72,7 +72,7 @@ const Schedules = () => {
           <tr>
             <th scope="row" className='p-3'>14:30</th>
             <td rowSpan='3' className='p-3'>Tecnologías asistivas</td>
-            <td rowSpan='4' className='p-3'>Arduino - <HashLink to='/evento#thursday-1' className="ponente-link" smooth> Ing. Ramiro Detke</HashLink></td>
+            <td rowSpan='4' className='p-3'>Arduino - <HashLink to='/evento#tuesday-1' className="ponente-link" smooth> Ing. Ramiro Detke</HashLink></td>
             <td rowSpan='4' className='p-3'>Video Pitch</td>
             <td rowSpan='6' className='p-3'>Joystick adaptado - <HashLink to='/evento#friday-3' className="ponente-link" smooth> Ing. Diego Beltramone</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
@@ -96,7 +96,7 @@ const Schedules = () => {
           </tr>
           <tr>
             <th scope="row" className='p-3'>16:30</th>
-            <td rowSpan='4' className='p-3'>Python - <HashLink to='/cronograma#thursday-1' className="ponente-link" smooth> Ing. Ramiro Detke</HashLink></td>
+            <td rowSpan='4' className='p-3'>Python - <HashLink to='/cronograma#tuesday-1' className="ponente-link" smooth> Ing. Ramiro Detke</HashLink></td>
             <td className='p-3'>RECESO</td>
             <td className='p-3'>RECESO</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
