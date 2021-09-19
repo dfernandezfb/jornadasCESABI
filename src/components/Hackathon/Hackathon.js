@@ -15,7 +15,7 @@ const Hackathon = () => {
         La Edición 2021 se realizará de manera virtual. Los equipos serán armados por el comité organizativo para generar una mayor interrelación entre los diferentes concursantes, siendo este el espíritu del capítulo estudiantil. <br />
         Una vez elegida la propuesta a desarrollar que será seleccionada por consenso del equipo, se deberán ir haciendo entregables para ver la evolución y se finalizará con un video pitch de 3 minutos donde deberán “vender” la solución, exponiendo de esta manera la capacidad de síntesis de los equipos. Cabe aclarar que todos los equipos tendrán tutores que realizarán un seguimiento asesorándolos de forma objetiva y apoyándolos a la hora de realizar la edición del video pitch.
       </p>
-      <h2 className="blue">¿Quienes pueden participar?</h2>
+      <h2 className="blue">¿Quiénes pueden participar?</h2>
       <p className="mb-4 text-justify">
         La convocatoria a participar está principalmente dirigida a estudiantes universitarios de ingeniería y carreras afines, pudiendo asimismo participar graduados, docentes, profesores o investigadores de cada universidad. Debido a que la conformación de los equipos estará dada por la gobernanza, existirá una equidad de competencias y conocimientos. Es por ello, que incentivamos a que estudiantes de todos los años puedan inscribirse ya que a nivel sistémico, no se verán en desigualdad de condiciones.
       </p>

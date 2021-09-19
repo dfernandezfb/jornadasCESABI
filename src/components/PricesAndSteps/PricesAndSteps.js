@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import useMediaQuery from './../../hooks/useMediaQuery'
 import Tab from 'react-bootstrap/Tab'
 import Nav from 'react-bootstrap/Nav'
 import Row from 'react-bootstrap/Row'
@@ -6,58 +7,141 @@ import Col from 'react-bootstrap/Col'
 import './PricesAndSteps.css'
 
 const PricesAndSteps = () => {
-  
+  const { width } = useMediaQuery()
   return (
     <div className="container my-5">
       <h3 className="mb-4 blue">Aranceles</h3>
       <div className="prices-container mb-5">
         <div className="price-table">
           <h5 className="text-center mb-3"> <span role="img">🔥</span>  Inscripción temprana (17/08 al 21/09) <span role="img">🔥</span></h5>
+          {width > 400 ?
+            <table className="text-center border">
+              <thead>
+                <tr>
+                  <th className="p-3"></th>
+                  <th className="p-3">Socios SABI / IEEE / SAMFYR / SAKiCaRe</th>
+                  <th className="p-3">General</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th className="p-3">Estudiantes</th>
+                  <td className="p-3"> AR $375 / 3 USD</td>
+                  <td className="p-3"> AR $750 / 6 USD</td>
+                </tr>
+                <tr>
+                  <th className="p-3">Profesionales</th>
+                  <td className="p-3"> AR $500 / 6 USD</td>
+                  <td className="p-3"> AR $1000 / 8 USD</td>
+                </tr>
+              </tbody>
+            </table>
+            :
+            <Fragment>
+              <table className="text-center border mb-2">
+                <thead>
+                  <tr>
+                    <th className="p-3"></th>
+                    <th className="p-3">Socios SABI / IEEE / SAMFYR / SAKiCaRe</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th className="p-3">Estudiantes</th>
+                    <td className="p-3"> AR $375 / 3 USD</td>
+                  </tr>
+                  <tr>
+                    <th className="p-3">Profesionales</th>
+                    <td className="p-3"> AR $500 / 6 USD</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table className="text-center border">
+                <thead>
+                  <tr>
+                    <th className="p-3"></th>
+                    <th className="p-3">General</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th className="p-3">Estudiantes</th>
+                    <td className="p-3"> AR $750 / 6 USD</td>
+                  </tr>
+                  <tr>
+                    <th className="p-3">Profesionales</th>
+                    <td className="p-3"> AR $1000 / 8 USD</td>
+                  </tr>
+                </tbody>
+              </table>
+            </Fragment>
+          }
+        </div>
+        <div className="price-table">
+          <h5 className="text-center mb-3">Inscripción tardía (22/09 al 04/10)</h5>
+          {
+            width > 400 ?
           <table className="text-center border">
             <thead>
               <tr>
                 <th className="p-3"></th>
-                <th className="p-3">Socios SABI / IEEE / SAMFYR</th>
+                <th className="p-3">Socios SABI / IEEE / SAMFYR / SAKiCaRe</th>
                 <th className="p-3">General</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th className="p-3">Estudiantes</th>
-                <td className="p-3"> AR $375 / 3 USD</td>
-                <td className="p-3"> AR $750 / 6 USD</td>
+                <td className="p-3"> AR $500 / 4 USD</td>
+                <td className="p-3"> AR $1000 / 8 USD</td>
               </tr>
               <tr>
                 <th className="p-3">Profesionales</th>
-                <td className="p-3"> AR $500 / 6 USD</td>
-                <td className="p-3"> AR $1000 / 8 USD</td>
+                <td className="p-3"> AR $625 / 5 USD</td>
+                <td className="p-3"> AR $1250 / 10 USD</td>
               </tr>
             </tbody>
           </table>
-        </div>
-        <div className="price-table">
-          <h5 className="text-center mb-3">Inscripción tardía (22/09 al 04/10)</h5>
-          <table className="text-center border">
+            :
+            <Fragment>
+          <table className="text-center border mb-2">
             <thead>
-            <tr>
-              <th className="p-3"></th>
-              <th className="p-3">Socios SABI / IEEE / SAMFYR</th>
-              <th className="p-3">General</th>
-            </tr>
+              <tr>
+                <th className="p-3"></th>
+                <th className="p-3">Socios SABI / IEEE / SAMFYR / SAKiCaRe</th>
+              </tr>
             </thead>
             <tbody>
-            <tr>
-              <th className="p-3">Estudiantes</th>
-              <td className="p-3"> AR $500 / 4 USD</td>
-              <td className="p-3"> AR $1000 / 8 USD</td>
-            </tr>
-            <tr>
-              <th className="p-3">Profesionales</th>
-              <td className="p-3"> AR $625 / 5 USD</td>
-              <td className="p-3"> AR $1250 / 10 USD</td>
-            </tr>
+              <tr>
+                <th className="p-3">Estudiantes</th>
+                <td className="p-3"> AR $500 / 4 USD</td>
+              </tr>
+              <tr>
+                <th className="p-3">Profesionales</th>
+                <td className="p-3"> AR $625 / 5 USD</td>
+              </tr>
             </tbody>
           </table>
+          <table className="text-center border">
+            <thead>
+              <tr>
+                <th className="p-3"></th>
+                <th className="p-3">General</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th className="p-3">Estudiantes</th>
+                <td className="p-3"> AR $1000 / 8 USD</td>
+              </tr>
+              <tr>
+                <th className="p-3">Profesionales</th>
+                <td className="p-3"> AR $1250 / 10 USD</td>
+              </tr>
+            </tbody>
+          </table>
+          </Fragment>
+          }
         </div>
       </div>
       <h3 className="mb-4 blue"> Pasos a seguir</h3>
@@ -97,7 +181,7 @@ const PricesAndSteps = () => {
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   Completá el siguiente formulario: <br /><br />
-                    <a href="https://forms.gle/9AkMgfsTWjUGBpTr7" className="register-insc shadow-lg" target="_blank" rel="noopener noreferrer"> Inscripción a las I Jornadas de Bioingeniería del Capítulo de Estudiantes SABI</a>
+                  <a href="https://forms.gle/9AkMgfsTWjUGBpTr7" className="register-insc shadow-lg" target="_blank" rel="noopener noreferrer"> Inscripción a las I Jornadas de Bioingeniería del Capítulo de Estudiantes SABI</a>
                 </Tab.Pane>
                 <Tab.Pane eventKey="fourth">
                   Una vez completados y verificados los pasos anteriores, te estaremos envíando un mail de confirmación para participar del evento. <b>¡GRACIAS!</b>

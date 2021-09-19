@@ -22,8 +22,8 @@ const Schedules = () => {
             <th scope='row' className='p-3'>09:00</th>
             <td className='p-3'>Presentación oficial</td>
             <td className='p-3'></td>
-            <td className='p-3'>Mamografos móviles - <HashLink to='/cronograma#thursday-2' className="ponente-link" smooth> Ing. Melani Larrain e Ing. Virginia Tesio</HashLink></td>
-            <td className='p-3'>Radiación - <HashLink to='/cronograma#friday-1' className="ponente-link" smooth> Ing. Florencia Zalazar</HashLink> e <HashLink to='/evento#friday-2' className="ponente-link" smooth> Ing. Daniela Zanchi</HashLink></td>
+            <td className='p-3'>Mamógrafos móviles - <HashLink to='/cronograma#thursday-1' className="ponente-link" smooth> Ing. Melani Larrain e Ing. Virginia Tesio</HashLink></td>
+            <td className='p-3'>Radiación - <HashLink to='/cronograma#friday-1' className="ponente-link" smooth> Ing. Florencia Zalazar</HashLink> e <HashLink to='/cronograma#friday-2' className="ponente-link" smooth> Ing. Daniela Zanchi</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
           </tr>
@@ -40,7 +40,7 @@ const Schedules = () => {
             <th scope='row' className='p-3'>10:30</th>
             <td className='p-3'>Inteligencia artificial</td>
             <td className='p-3'>Biomecánica</td>
-            <td className='p-3'>Biomateriales - <HashLink to='/cronograma#thursday-4' className="ponente-link" smooth> Dr. Ing. Carlos Oldani</HashLink></td>
+            <td className='p-3'>Biomateriales - <HashLink to='/cronograma#thursday-3' className="ponente-link" smooth> Dr. Ing. Carlos Oldani</HashLink></td>
             <td className='p-3'>Neurociencias</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>C</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>C</td>
@@ -59,7 +59,7 @@ const Schedules = () => {
             <td className='p-3'>Estudiantes en acción</td>
             <td className='p-3'>Estudiantes en acción</td>
             <td className='p-3'>Estudiantes en acción</td>
-            <td className='p-3'>Neurociencias - <HashLink to='/cronograma#friday-4' className="ponente-link" smooth> Dr. Ing. Betiana Felice</HashLink></td>
+            <td className='p-3'>Neurociencias - <HashLink to='/cronograma#friday-4' className="ponente-link" smooth> Dra. Ing. Betiana Felice</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
           </tr>
@@ -72,9 +72,9 @@ const Schedules = () => {
           <tr>
             <th scope="row" className='p-3'>14:30</th>
             <td rowSpan='3' className='p-3'>Tecnologías asistivas</td>
-            <td rowSpan='4' className='p-3'>Arduino - <HashLink to='/evento#tuesday-1' className="ponente-link" smooth> Ing. Ramiro Detke</HashLink></td>
+            <td rowSpan='4' className='p-3'>Arduino - <HashLink to='/cronograma#tuesday-1' className="ponente-link" smooth> Ing. Ramiro Detke</HashLink></td>
             <td rowSpan='4' className='p-3'>Video Pitch</td>
-            <td rowSpan='6' className='p-3'>Joystick adaptado - <HashLink to='/evento#friday-3' className="ponente-link" smooth> Ing. Diego Beltramone</HashLink></td>
+            <td rowSpan='6' className='p-3'>Joystick adaptado - <HashLink to='/cronograma#friday-3' className="ponente-link" smooth> Ing. Diego Beltramone</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
           </tr>
@@ -104,7 +104,7 @@ const Schedules = () => {
           </tr>
           <tr>
             <th scope="row" className='p-3'>17:00</th>
-            <td rowSpan='6' className='p-3'> SCRUM Espresso - <HashLink to='/cronograma#wednesdat-1' className="ponente-link" smooth> Ing. Guillermo Hintz</HashLink></td>
+            <td rowSpan='6' className='p-3'> SCRUM Espresso - <HashLink to='/cronograma#wednesday-1' className="ponente-link" smooth> Ing. Guillermo Hintz</HashLink></td>
             <td rowSpan='3' className='p-3'>Impresión 3D orientado a prototipado</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>C</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>C</td>
@@ -131,7 +131,7 @@ const Schedules = () => {
           </tr>
           <tr>
             <th scope="col" className='p-3'>19:00</th>
-            <td rowSpan='3' className='p-3'>App moviles + desafíos - <HashLink to='/cronograma#thursday-3' className="ponente-link" smooth> Gisel Bustos y Mariam Calmels</HashLink></td>
+            <td rowSpan='3' className='p-3'>App moviles + desafíos - <HashLink to='/cronograma#thursday-2' className="ponente-link" smooth> Gisel Bustos y Mariam Calmels</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
