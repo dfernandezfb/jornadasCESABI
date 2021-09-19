@@ -15,10 +15,7 @@
 .logos-altos{
   height: 120px;
 }
-.ponente-link{
-  text-decoration: none;
-  color: black;
-}
+
 @media screen and (max-width:400px){
   .fiunsj{
     width: 300px;
