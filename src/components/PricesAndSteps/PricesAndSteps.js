@@ -13,9 +13,9 @@ const PricesAndSteps = () => {
       <h3 className="mb-4 blue">Aranceles</h3>
       <div className="prices-container mb-5">
         <div className="price-table">
-          <h5 className="text-center mb-3"> <span role="img">🔥</span>  Inscripción temprana (17/08 al 21/09) <span role="img">🔥</span></h5>
+          <h5 className="text-center mb-3"> <del> Inscripción temprana (17/08 al 21/09) </del></h5>
           {width > 400 ?
-            <table className="text-center border">
+            <table className="text-center border" >
               <thead>
                 <tr>
                   <th className="p-3"></th>
@@ -26,13 +26,13 @@ const PricesAndSteps = () => {
               <tbody>
                 <tr>
                   <th className="p-3">Estudiantes</th>
-                  <td className="p-3"> AR $375 / 3 USD</td>
-                  <td className="p-3"> AR $750 / 6 USD</td>
+                  <td className="p-3"> <del>AR $375 / 3 USD</del></td>
+                  <td className="p-3"> <del>AR $750 / 6 USD</del></td>
                 </tr>
                 <tr>
                   <th className="p-3">Profesionales</th>
-                  <td className="p-3"> AR $500 / 6 USD</td>
-                  <td className="p-3"> AR $1000 / 8 USD</td>
+                  <td className="p-3"> <del>AR $500 / 6 USD </del></td>
+                  <td className="p-3"> <del>AR $1000 / 8 USD </del></td>
                 </tr>
               </tbody>
             </table>
@@ -78,7 +78,7 @@ const PricesAndSteps = () => {
           }
         </div>
         <div className="price-table">
-          <h5 className="text-center mb-3">Inscripción tardía (22/09 al 04/10)</h5>
+          <h5 className="text-center mb-3"><span role="img">🔥</span>Inscripción tardía (22/09 al 04/10)<span role="img">🔥</span></h5>
           {
             width > 400 ?
           <table className="text-center border">

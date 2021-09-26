@@ -4,8 +4,8 @@ import './Schedules.css'
 const Schedules = () => {
   return (
     <div className='container mt-5 mb-5'>
-      <h2 className="blue">Cronograma del evento<small className='fs-6 text-dark'> Última actualización: 19/09/21 </small></h2>
-      <p>Conocé como estan organizadas las jornadas en este cronograma. Podés presionar sobre cada ponente para conocer más acerca de él/ella, y también, podés descargarlo <a href='https://drive.google.com/file/d/1SQ-0BpaJvcDkJ48HKgudn459_h6BfH4O/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='clean-link'>haciendo click aquí</a>.</p>
+      <h2 className="blue">Cronograma del evento<small className='fs-6 text-dark'> Última actualización: 26/09/21 </small></h2>
+      <p>Conocé como estan organizadas las jornadas en este cronograma. Podés presionar sobre cada ponente para conocer más acerca de él/ella, y también, podés descargarlo <a href='https://drive.google.com/file/d/11tgHz0fIFYQsZmsPMFn9Bjut29z1H4Bg/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='clean-link'>haciendo click aquí</a>.</p>
       <div className="table-responsive">
       <table className='col-12 text-center table-bordered'>
         <thead className="pbg-green">
@@ -23,24 +23,25 @@ const Schedules = () => {
           <tr>
             <th scope='row' className='p-3'>09:00</th>
             <td className='p-3'>Presentación oficial</td>
-            <td className='p-3'> Simulación molecular </td>
+            <td className='p-3'> Simulación molecular - <HashLink to='/cronograma#wednesday-3' className='ponente-link'>Bioing. Silvina Moyano</HashLink> </td>
             <td className='p-3'>Mamógrafos móviles - <HashLink to='/cronograma#thursday-1' className="ponente-link" smooth> Ing. Melani Larrain e Ing. Virginia Tesio</HashLink></td>
             <td className='p-3'>Radiación - <HashLink to='/cronograma#friday-1' className="ponente-link" smooth> Ing. Florencia Zalazar</HashLink> e <HashLink to='/cronograma#friday-2' className="ponente-link" smooth> Ing. Daniela Zanchi</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
           </tr>
+          {/* <HashLink to="" className=""></HashLink> */}
           <tr>
             <th scope='row' className='p-3'>09:45</th>
-            <td className='p-3'>Transformación digital</td>
+            <td className='p-3'>Transformación digital - <HashLink to="/cronograma#tuesday-2" className="ponente-link">Dr. Daniel Luna</HashLink></td>
             <td className='p-3'>Rehabilitación con BCI - <HashLink to='/cronograma#wednesday-2' className="ponente-link">Mg. Bioing. L. Carolina Carrere </HashLink></td>
             <td className='p-3'>Ingeniería Clínica</td>
-            <td className='p-3'>Nanomedicina</td>
+            <td className='p-3'>Nanomedicinas - <HashLink to="/cronograma#friday-6" className="ponente-link">Dra. Julia Altube</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
           </tr>
           <tr>
             <th scope='row' className='p-3'>10:30</th>
-            <td className='p-3'>Inteligencia artificial</td>
+            <td className='p-3'>Inteligencia artificial - <HashLink to="/cronograma#tuesday-3" className="ponente-link">Bioing. Matías Tejerian</HashLink></td>
             <td className='p-3'>Biomecánica</td>
             <td className='p-3'>Biomateriales - <HashLink to='/cronograma#thursday-3' className="ponente-link" smooth> Dr. Ing. Carlos Oldani</HashLink></td>
             <td className='p-3'>Neurociencias - <HashLink to='/cronograma#friday-5' className="ponente-link">Dr. Ing. Fernando Farfán</HashLink></td>
@@ -61,7 +62,7 @@ const Schedules = () => {
             <td className='p-3'>Estudiantes en acción</td>
             <td className='p-3'>Estudiantes en acción</td>
             <td className='p-3'>Estudiantes en acción</td>
-            <td className='p-3' rowSpan='2'>Neurociencias - <HashLink to='/cronograma#friday-4' className="ponente-link" smooth> Dra. Ing. Betiana Felice</HashLink></td>
+            <td className='p-3' rowSpan='2'>Desarrollo biomédico - <HashLink to='/cronograma#friday-4' className="ponente-link" smooth> Dra. Ing. Betiana Felice</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
           </tr>
