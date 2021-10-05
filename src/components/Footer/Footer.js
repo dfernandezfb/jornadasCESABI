@@ -26,8 +26,8 @@ const Footer = () => {
         <div className="col-12 col-lg-3 p-3 mb-2">
           <h4 className="text-center">Contactanos</h4>
           <div className="col-12 text-center mb-4">
-            <a className='icon social-icon' href='mailto:capituloestudiantil@sabi.org.ar'><FaEnvelope /></a>
-            <p>capituloestudiantil@sabi.org.ar</p>
+            <a className='icon social-icon' href='mailto:capituloestudiantes@sabi.org.ar'><FaEnvelope /></a>
+            <p>capituloestudiantes@sabi.org.ar</p>
           </div>
           <h4 className="text-center">Acerca de nosotros</h4>
           <div className="col-12 text-center">
