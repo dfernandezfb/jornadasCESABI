@@ -176,7 +176,7 @@ const PricesAndSteps = () => {
                   No olvides obtener el comprobante de pago, o realizarle una captura donde se pueda observar el número de transferencia.
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  Envíanos un correo electrónico a <a href="mailto=capituloestudiantil@sabi.org.ar">capituloestudiantil@sabi.org.ar</a> con el asunto "Inscripción SABI", y en el mail especifica que tipo de inscripción es la que aplica a tu caso. Te responderemos con un link de pago para que realices la tranferencia. <br />
+                  Envíanos un correo electrónico a <a href="mailto=capituloestudiantes@sabi.org.ar">capituloestudiantes@sabi.org.ar</a> con el asunto "Inscripción SABI", y en el mail especifica que tipo de inscripción es la que aplica a tu caso. Te responderemos con un link de pago para que realices la tranferencia. <br />
                   No olvides obtener el comprobante de pago, o realizarle una captura donde se pueda observar el número de transferencia.
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
