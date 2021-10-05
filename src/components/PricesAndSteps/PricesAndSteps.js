@@ -78,7 +78,7 @@ const PricesAndSteps = () => {
           }
         </div>
         <div className="price-table">
-          <h5 className="text-center mb-3"><span role="img">🔥</span>Inscripción tardía (22/09 al 04/10)<span role="img">🔥</span></h5>
+          <h5 className="text-center mb-3"><span role="img">🔥</span>Inscripción tardía (22/09 al 10/10)<span role="img">🔥</span></h5>
           {
             width > 400 ?
           <table className="text-center border">
