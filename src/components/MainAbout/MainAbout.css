@@ -15,7 +15,22 @@
 .logos-altos{
   height: 120px;
 }
-
+.logo-unc{
+  height: 100px;
+  width: 420px;
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+.logo-unvime{
+  height: 150px;
+  width: 250px;
+  object-fit: cover;
+}
+.logo-facet{
+  height: 100px;
+  width: 225px;
+  object-fit: cover;
+}
 @media screen and (max-width:400px){
   .fiunsj{
     width: 300px;

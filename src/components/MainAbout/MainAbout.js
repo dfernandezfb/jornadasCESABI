@@ -4,12 +4,15 @@ import nosotros from './../../assets/images/nosotros.png'
 import meeting from './../../assets/images/meeting.png'
 import unaj1 from './../../assets/images/unaj1.jpg'
 import unaj2 from './../../assets/images/unaj2.png'
-import facetunt from './../../assets/images/facet-unt.png'
+import facetunt from './../../assets/images/facet.svg'
 import fiunsj from './../../assets/images/fi-unsj.png'
 import uf from './../../assets/images/uf.png'
 import um from './../../assets/images/um.png'
 import fiuner from './../../assets/images/fi-uner.jpg'
 import coral from './../../assets/images/coral.png'
+import drk from './../../assets/images/drk.png'
+import fcefynunc from './../../assets/images/unc.svg'
+import eicaunvime from './../../assets/images/unvime.svg'
 import './MainAbout.css'
 import useMediaQuery from '../../hooks/useMediaQuery'
 
@@ -60,17 +63,25 @@ const MainAbout = () => {
       <div className='row mb-5 justify-content-center'>
         <img src={nosotros} alt="reunion-cesabi" style={{ width: '70%' }} />
       </div>
-      {/* <h2 className="text-center my-5">Auspician este evento</h2>
-      <div className="d-flex"></div> */}
+      <h2 className="text-center my-5">Auspicia este evento</h2>
+      <div className="d-flex mb-5 justify-content-around flex-wrap">
+        <div className="row justify-content-center">
+          <div className="col-10 col-md-6">
+            <img src={drk} alt="logo-dr-k" class="img-fluid"/>
+          </div>
+        </div>
+      </div>
       <h2 className="text-center my-5">Este evento cuenta con el aval institucional de</h2>
       <div className="d-flex mb-5 justify-content-around flex-wrap">
         <img src={unaj1} alt="logo-unaj" className="logos-bajos m-4" />
         <img src={unaj2} alt="logo-unaj" className="logos-bajos m-4" />
-        <img src={facetunt} alt="logo-facet-unt" className="logos-altos m-4" />
+        <img src={facetunt} alt="logo-facet-unt" className="logo-facet m-4" />
         <img src={fiunsj} alt="logo-fi-unsj" className="logos-altos fiunsj m-4" />
         <img src={uf} alt="logo-uf" className="logos-altos m-4" />
         <img src={um} alt="logo-um" className="logos-altos m-4" />
         <img src={fiuner} alt="logo-fi-uner" className="logos-altos m-4" />
+        <img src={fcefynunc} alt="logo-fcefyn-unc" className="logo-unc m-4" />
+        <img src={eicaunvime} alt="logo-eica-unvime" className="logo-unvime m-4" />
         <img src={coral} alt="logo-coral" className="logos-altos m-4" />
       </div>
     </main >
