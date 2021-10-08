@@ -33,7 +33,9 @@ const MainAbout = () => {
         </div>
       </div>
       <div className='row mb-3 justify-content-center'>
-        <img src={meeting} alt="meeting" style={{ width: '70%' }} />
+        <div className="col-12 col-md-10">
+        <img src={meeting} alt="meeting" className="img-fluid" />
+        </div>
       </div>
       {
         width > 768 ?
@@ -63,9 +65,11 @@ const MainAbout = () => {
       }
 
       <div className='row mb-5 justify-content-center'>
-        <img src={nosotros} alt="reunion-cesabi" style={{ width: '70%' }} />
+        <div className="col-12 col-md-10 justify-content-center">
+          <img src={nosotros} alt="reunion-cesabi" className="img-fluid" />
+        </div>
       </div>
-      <h2 className="text-center my-5">Auspicia este evento</h2>
+      <h2 className="text-center my-5">Patrocinan este evento</h2>
       <div className="d-flex mb-5 justify-content-around flex-wrap">
         <div className="row justify-content-center">
           <div className="col-10 col-md-5 mb-5 mb-md-0 d-flex align-items-center">
