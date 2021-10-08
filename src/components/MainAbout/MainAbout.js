@@ -33,7 +33,7 @@ const MainAbout = () => {
         </div>
       </div>
       <div className='row mb-3 justify-content-center'>
-        <div className="col-12 col-md-10">
+        <div className="col-12 col-md-10 text-center">
         <img src={meeting} alt="meeting" className="img-fluid" />
         </div>
       </div>
@@ -65,7 +65,7 @@ const MainAbout = () => {
       }
 
       <div className='row mb-5 justify-content-center'>
-        <div className="col-12 col-md-10 justify-content-center">
+        <div className="col-12 col-md-10 text-center">
           <img src={nosotros} alt="reunion-cesabi" className="img-fluid" />
         </div>
       </div>
