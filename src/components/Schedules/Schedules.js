@@ -83,7 +83,7 @@ const Schedules = () => {
             <th scope="row" className='p-3'>14:30</th>
             <td rowSpan='3' className='p-3'>Tecnologías asistivas</td>
             <td rowSpan='4' className='p-3'>Arduino - <HashLink to='/cronograma#tuesday-1' className="ponente-link" smooth> Ing. Ramiro Detke</HashLink></td>
-            <td rowSpan='4' className='p-3'>Video Pitch</td>
+            <td rowSpan='4' className='p-3'>Video Pitch - <HashLink to='/cronograma#thursday-7' className="ponente-link" smooth> Ing. Florencia Navarro</HashLink></td>
             <td rowSpan='6' className='p-3'>Joystick adaptado - <HashLink to='/cronograma#friday-3' className="ponente-link" smooth> Ing. Diego Beltramone</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>O</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>O</td>
