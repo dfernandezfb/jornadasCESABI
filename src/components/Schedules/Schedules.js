@@ -4,7 +4,7 @@ import './Schedules.css'
 const Schedules = () => {
   return (
     <div className='container mt-5 mb-5'>
-      <h2 className="blue">Cronograma del evento<small className='fs-6 text-dark'> Última actualización: 7/10/21 </small></h2>
+      <h2 className="blue">Cronograma del evento<small className='fs-6 text-dark'> Última actualización: 10/10/21 </small></h2>
       <p>Conocé como estan organizadas las jornadas en este cronograma. Podés presionar sobre cada ponente para conocer más acerca de él/ella, y también, podés descargarlo <a href='https://drive.google.com/file/d/11tgHz0fIFYQsZmsPMFn9Bjut29z1H4Bg/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='clean-link'>haciendo click aquí</a>.</p>
       <div className="table-responsive">
       <table className='col-12 text-center table-bordered'>
@@ -34,7 +34,7 @@ const Schedules = () => {
             <th scope='row' className='p-3'>09:45</th>
             <td className='p-3'>Nanomateriales poliméricos - <HashLink to="/cronograma#tuesday-4" className="ponente-link">Dra. Bioing. Daniela Gonzalez</HashLink></td>
             <td className='p-3'>Rehabilitación con BCI - <HashLink to='/cronograma#wednesday-2' className="ponente-link">Mg. Bioing. L. Carolina Carrere </HashLink></td>
-            <td className='p-3'>Ingeniería Clínica</td>
+            <td className='p-3'>Ingeniería Clínica - <HashLink to='/cronograma#thursday-2' className="ponente-link" smooth> Ing. Lucila Figueroa Gallo</HashLink></td>
             <td className='p-3'>Nanomedicinas - <HashLink to="/cronograma#friday-6" className="ponente-link">Dra. Julia Altube</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
@@ -141,7 +141,7 @@ const Schedules = () => {
           </tr>
           <tr>
             <th scope="col" className='p-3'>19:00</th>
-            <td rowSpan='3' className='p-3'>App moviles + desafíos - <HashLink to='/cronograma#thursday-2' className="ponente-link" smooth> Gisel Bustos y Mariam Calmels</HashLink></td>
+            <td rowSpan='3' className='p-3'>App moviles + desafíos - <HashLink to='/cronograma#thursday-8' className="ponente-link" smooth> Gisel Bustos y Mariam Calmels</HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>A</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>H</td>
