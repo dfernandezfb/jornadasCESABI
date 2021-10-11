@@ -4,7 +4,7 @@ import './Schedules.css'
 const Schedules = () => {
   return (
     <div className='container mt-5 mb-5'>
-      <h2 className="blue">Cronograma del evento<small className='fs-6 text-dark'> Última actualización: 10/10/21 </small></h2>
+      <h2 className="blue">Cronograma del evento<small className='fs-6 text-dark'> Última actualización: 11/10/21 </small></h2>
       <p>Conocé como estan organizadas las jornadas en este cronograma. Podés presionar sobre cada ponente para conocer más acerca de él/ella, y también, podés descargarlo <a href='https://drive.google.com/file/d/1WiwT_b98P7aJQfCpVq9-ITC7wO3zeU3x/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='clean-link'>haciendo click aquí</a>.</p>
       <div className="table-responsive">
       <table className='col-12 text-center table-bordered'>
@@ -51,7 +51,7 @@ const Schedules = () => {
           <tr>
             <th scope='row' className='p-3'>11:15</th>
             <td className='p-3'>Transformación digital - <HashLink to="/cronograma#tuesday-2" className="ponente-link">Dr. Daniel Luna</HashLink></td>
-            <td className='p-3'>EBERS</td>
+            <td className='p-3'>Emprender en ingeniería biomédica - <HashLink to="/cronograma#wednesday-4" className="ponente-link">Ing. Facundo Noya</HashLink></td>
             <td className='p-3'>Ingeniería de tejidos - <HashLink to='/cronograma#thursday-4' className="ponente-link" smooth>Ing. Eduardo Nieva </HashLink></td>
             <td className='p-3'>Ingeniería de rehabilitación</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>K</td>
@@ -59,7 +59,7 @@ const Schedules = () => {
           </tr>
           <tr>
             <th scope='row' className='p-3'>12:00</th>
-            <td className='p-3'>Estudiantes en acción - <HashLink to="/cronograma#tuesday-5" className="ponente-link">Clara Lisazo y Paula del Pópolo</HashLink></td>
+            <td className='p-3'>Estudiantes en acción - <HashLink to='/cronograma#tuesday-5' className="ponente-link" smooth> Lorenzo Tell </HashLink></td>
             <td className='p-3' rowSpan='2'>Estudiantes en acción</td>
             <td className='p-3'>Estudiantes en acción - <HashLink to='/cronograma#thursday-5' className="ponente-link" smooth>Milagros Pidutti </HashLink></td>
             <td className='p-3' rowSpan='2'>Desarrollo biomédico - <HashLink to='/cronograma#friday-4' className="ponente-link" smooth> Dra. Ing. Betiana Felice</HashLink></td>
@@ -68,7 +68,7 @@ const Schedules = () => {
           </tr>
           <tr>
             <th scope='row' className='p-3'>12:25</th>
-            <td className='p-3'>Estudiantes en acción</td>
+            <td className='p-3'>Estudiantes en acción - <HashLink to="/cronograma#tuesday-6" className="ponente-link">Clara Lisazo y Paula del Pópolo</HashLink></td>
             <td className='p-3'>Estudiantes en acción - <HashLink to='/cronograma#thursday-6' className="ponente-link" smooth>Trinidad Gonzalez y Natalia Massaccessi </HashLink></td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>T</td>
             <td className='p-3 pbg-darkgreen text-light fw-bold'>T</td>
