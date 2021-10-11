@@ -5,7 +5,7 @@ const Schedules = () => {
   return (
     <div className='container mt-5 mb-5'>
       <h2 className="blue">Cronograma del evento<small className='fs-6 text-dark'> Última actualización: 10/10/21 </small></h2>
-      <p>Conocé como estan organizadas las jornadas en este cronograma. Podés presionar sobre cada ponente para conocer más acerca de él/ella, y también, podés descargarlo <a href='https://drive.google.com/file/d/11tgHz0fIFYQsZmsPMFn9Bjut29z1H4Bg/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='clean-link'>haciendo click aquí</a>.</p>
+      <p>Conocé como estan organizadas las jornadas en este cronograma. Podés presionar sobre cada ponente para conocer más acerca de él/ella, y también, podés descargarlo <a href='https://drive.google.com/file/d/1WiwT_b98P7aJQfCpVq9-ITC7wO3zeU3x/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='clean-link'>haciendo click aquí</a>.</p>
       <div className="table-responsive">
       <table className='col-12 text-center table-bordered'>
         <thead className="pbg-green">
