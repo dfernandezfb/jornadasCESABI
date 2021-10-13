@@ -13,6 +13,7 @@ import unt from './../../assets/images/unt.jpg'
 import coral from './../../assets/images/coral.png'
 import drk from './../../assets/images/drk.png'
 import medix from './../../assets/images/medix.png'
+import medtronic from './../../assets/images/medtronic.png'
 import fcefynunc from './../../assets/images/unc.svg'
 import eicaunvime from './../../assets/images/unvime.svg'
 import './MainAbout.css'
@@ -71,12 +72,14 @@ const MainAbout = () => {
       </div>
       <h2 className="text-center my-5">Patrocinan este evento</h2>
       <div className="d-flex mb-5 justify-content-around flex-wrap">
-        <div className="row justify-content-center">
-          <div className="col-10 col-md-5 mb-5 mb-md-0 d-flex align-items-center">
+        <div className="row justify-content-around">
+          <div className="col-10 col-md-3 mb-5 mb-md-0 d-flex align-items-center">
             <img src={drk} alt="logo-dr-k" class="img-fluid"/>
           </div>
-          <div className="col-md-2"></div>
-          <div className="col-10 col-md-5 d-flex align-items-center">
+          <div className="col-10 col-md-4 d-flex mb-5 mb-md-0 align-items-center">
+            <img src={medtronic} alt="logo-medix" class="img-fluid"/>
+          </div>
+          <div className="col-10 col-md-3 d-flex align-items-center">
             <img src={medix} alt="logo-medix" class="img-fluid"/>
           </div>
         </div>
