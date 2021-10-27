@@ -13,21 +13,32 @@ p {
   display: flex;
   justify-content: center;
 }
-.winner-name{
+.winner-name, .second-name, .third-name{
   width: 70%;
   height: 100%;
-  border-radius: 2rem;
-  box-shadow: -2px 5px 15px 5px #000000;
-  border: 1px solid black;
   display: flex;
   text-align: center;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  padding: 5px;
+}
+.winner-name{
+  font-size: 2.5rem;
+  color: var(--main-darkblue);
+  text-shadow: 0 -1px 4px #000, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.second-name,.third-name{
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--main-darkblue);
+  /* text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, var() 0px 0px 20px, var() 0px 0px 30px,
+  var() 0px 0px 40px, var() 0px 0px 50px, var() 0px 0px 75px; */
 }
 .base-1,.base-2,.base-3{
   font-size: 50px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   font-weight: 900;
   color: var(--main-green);
@@ -48,27 +59,10 @@ p {
   box-shadow: -2px 5px 15px 5px #000000;
 }
 .integrants-1, .integrants-2, .integrants-3{
-  display: none;
   font-size: 20px;
+  color: #ddd;
 }
-.base-1:hover .integrants-1{
-  display: block;
-}
-.base-1:hover .number-1{
-  display: none;
-}
-.base-2:hover .integrants-2{
-  display: block;
-}
-.base-2:hover .number-2{
-  display: none;
-}
-.base-3:hover .integrants-3{
-  display: block;
-}
-.base-3:hover .number-3{
-  display: none;
-}
+
 
 @media screen and (max-width:592px){
   .base-1,.base-2,.base-3{

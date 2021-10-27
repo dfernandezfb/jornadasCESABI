@@ -22,7 +22,7 @@ const Hackathon = () => {
       <h2 className="mb-3 blue">Premios</h2>
       {width < 592 ?
         <div>
-          
+
           <div className="row">
             <div className="col-12 mb-4 awards">
               <div className="award">
@@ -68,7 +68,7 @@ const Hackathon = () => {
         </div>
         :
         <div>
-        <div className="row mb-3">
+          <div className="row mb-3">
             <div className="col">
               <h4>Tercer premio:</h4>
               <ul>
@@ -92,26 +92,52 @@ const Hackathon = () => {
               </ul>
             </div>
           </div>
-        <div className="row">
-          <div className="col awards">
-            <div className="award">
-              <div className="winner-name">Aquí puede estar el nombre de tu equipo</div>
+          <div className="row">
+            <div className="col-12 col-md-4 awards">
+              <div className="award">
+                <div className="third-name">ESCUCHÁ TU ALREDEDOR</div>
+              </div>
+              <div className="base-3">
+                <p className="number-3">#3</p>
+                <p className="integrants-3">
+                  Integrantes: <br />
+                  - Evelyn Zuloaga (UM) <br />
+                  - María Victoria Liendro (UNC)<br />
+                  - Natalia Arredondo (UNSJ) <br />
+                </p>
+              </div>
             </div>
-            <div className="base-3"><p className="number-3">#3</p><p className="integrants-3">Integrantes: <br />- Participante 1 <br />- Participante 2<br />- Participante 3 <br />- Participante 4<br />- Participante 5</p></div>
-          </div>
-          <div className="col awards">
-            <div className="award">
-              <div className="winner-name">Aquí puede estar el nombre de tu equipo</div>
+            <div className="col-12 col-md-4 awards">
+              <div className="award">
+                <div className="winner-name">PARAMEDTOP</div>
+              </div>
+              <div className="base-1">
+                <p className="number-1">#1</p>
+                <p className="integrants-1">
+                  Integrantes: <br />
+                  - Lorenzo Tell (UNViMe) <br />
+                  - Juan Francisco Jurado (UM)<br />
+                  - Pedro Lopez (UNSAM) <br />
+                  - Santiago Gómez (UNC)<br />
+                </p>
+              </div>
             </div>
-            <div className="base-1"><p className="number-1">#1</p><p className="integrants-1">Integrantes: <br />- Participante 1 <br />- Participante 2<br />- Participante 3 <br />- Participante 4<br />- Participante 5</p></div>
-          </div>
-          <div className="col awards">
-            <div className="award">
-              <div className="winner-name">Aquí puede estar el nombre de tu equipo</div>
+            <div className="col-12 col-md-4 awards">
+              <div className="award">
+                <div className="second-name">IDENTIFICACIÓN DE ALIMENTOS</div>
+              </div>
+              <div className="base-2">
+                <p className="number-2">#2</p> 
+                <p className="integrants-2">
+                  Integrantes: <br />
+                  - Martina Aragón (UNT) <br />
+                  - Lucía de Rosas (UNSJ)<br />
+                  - Tamara Cruz (UNC)<br />
+                  - Emilia Videla (UM)<br />
+                </p>
+              </div>
             </div>
-            <div className="base-2"><p className="number-2">#2</p> <p className="integrants-2">Integrantes: <br />- Participante 1 <br />- Participante 2<br />- Participante 3 <br />- Participante 4<br />- Participante 5</p> </div>
           </div>
-        </div>
         </div>
       }
 
